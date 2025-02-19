@@ -37,7 +37,7 @@ def login_test(username, password):
         driver.quit()
 
     def main():
-        usernames, passwords = readCredentials('/Users/shane/Python/users.txt', '/Users/shane/Python/passwords.txt')
+        usernames, passwords = readCredentials('/path/to/username/list', '/path/to/password/list')
 
         for username in usernames:
             for password in passwords:
